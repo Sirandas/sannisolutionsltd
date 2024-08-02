@@ -1,0 +1,47 @@
+<section
+  id="about"
+  class="about-area2 about-p pt-145 pb-150 p-relative"
+  style="background-color: #eaf3f2"
+>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div
+          class="about-img p-relative wow fadeInLeft animated"
+          data-animation="fadeInLeft"
+          data-delay=".4s"
+          style="visibility: visible; animation-name: fadeInLeft"
+        >
+          <img
+            [src]="sideImg"
+            [style.width]="isHome ? '100%' : '75%'"
+            [style.border-radius]="isHome ? '40%' : '0%'"
+            alt="img"
+          />
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div
+          class="about-content s-about-content wow fadeInRight animated"
+          data-animation="fadeInRight"
+          data-delay=".4s"
+          style="visibility: visible; animation-name: fadeInRight"
+        >
+          <div class="about-title second-atitle pb-25" style="padding: 0 20px">
+            <h2 style="font-weight: 500; line-height: 70px">
+              {{ title1 }} <br />
+              {{ title2 }}
+            </h2>
+          </div>
+
+          <p>{{ p1 }}</p>
+          <p>{{ p2 }}</p>
+          <p [style.margin-bottom]="isHome ? '25px' : '0px'">{{ p3 }}</p>
+          <button *ngIf="isHome" mat-raised-button [routerLink]="['/about']">
+            Read More
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,29 @@
+<section class="home d-flex justify-center align-items-end">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 pb-75 align-items-center text-center">
+        <h1>Innovative Design Lab</h1>
+        <p>Your go-to for exceptional web development and design,</p>
+        <p>delivering both static and dynamic sites with unique flair.</p>
+      </div>
+      <div class="col-12 pt-50 pb-50 align-items-center text-center">
+        <button mat-raised-button [routerLink]="['/contact']">
+          Get Started
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+<app-about-us
+  sideImg="assets/images/home-side.jpg"
+  title1="WE HELP MAKE"
+  title2="WEBSITE BETTER"
+  p1="Our expertise includes skilled web development, website redesign, web design, and the creation of dynamic and static websites. Our primary goal for all types of organizations is to create websites that are efficient, knowledgeable, approachable, and appealing. Our knowledgeable staff transforms the user specifications into the most appropriate form after first understanding the client's requirements."
+  p2="We've been working on complex problem solutions for over a decade. Each member of our small but adaptable team is responsible for taking your digital design strategy from ordinary to extraordinary. We have created and launched numerous websites, and we are currently working on client projects. Our knowledgeable experts put forth a genuine effort through their creative ideas, obtaining the appropriate answers in a timely manner in accordance with the client's requirements."
+  p3="We assist you with this process whether you are a multibillion-dollar corporation that generates significant revenue year after year or a small business trying to make a name for itself in the industry."
+  [isHome]="true"
+>
+</app-about-us>
+<app-services></app-services>
+<app-final-section></app-final-section>
+<app-contact-us></app-contact-us>

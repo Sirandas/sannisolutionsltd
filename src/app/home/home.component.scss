@@ -1,0 +1,28 @@
+.mat-mdc-raised-button:not(:disabled) {
+  color: #fff;
+  background: #193f63;
+  padding: 30px 40px;
+  border-radius: 30px;
+}
+
+.mat-mdc-raised-button:hover {
+  color: #193f63;
+  background: #d3e4f7;
+}
+
+.home {
+  height: 500px;
+  color: #002a53;
+  h1 {
+    font-size: xxx-large;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: initial;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 25px;
+  }
+}

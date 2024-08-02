@@ -1,0 +1,63 @@
+<header class="header-area header-two" [ngClass]="getHeaderClass()">
+  <div id="header-sticky" class="menu-area">
+    <div class="container">
+      <div class="second-menu">
+        <div class="row align-items-center">
+          <div class="col-xl-3 col-lg-3">
+            <div class="logo">
+              <a routerLink="/home"
+                ><img
+                  src="assets\images\raise-solutions-logo.png"
+                  alt="Raise Solutions Ltd"
+              /></a>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-9">
+            <div class="main-menu text-right text-xl-right float-end">
+              <nav id="mobile-menu" style="display: block">
+                <ul>
+                  <li>
+                    <a routerLink="/home">Home</a>
+                  </li>
+                  <li>
+                    <a routerLink="/about">About Us</a>
+                  </li>
+                  <li>
+                    <a routerLink="/services">Services</a>
+                  </li>
+                  <li>
+                    <a routerLink="/contact">Contact Us</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 text-left d-none d-xl-block">
+            <div class="call-box">
+              <ul>
+                <li>
+                  <div class="icon">
+                    <img
+                      src="assets\images\call_now.svg"
+                      alt="top-m-icon.png"
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div class="text">
+                    <span>Call Now !</span>
+                    <strong>+447392408240</strong>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="mobile-menu"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

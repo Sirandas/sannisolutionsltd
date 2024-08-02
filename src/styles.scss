@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../src/app/default.scss";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.page-content {
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .page-content {
+    padding: 10px;
+  }
+}

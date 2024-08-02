@@ -1,0 +1,30 @@
+ul {
+  list-style: none;
+}
+
+* {
+  font-family: "Roboto";
+  letter-spacing: 2px;
+  line-height: 22px;
+}
+
+::ng-deep {
+  li h2 {
+    font-weight: 700;
+    color: #41729f;
+  }
+
+  .mat-typography h2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.0125em;
+    margin: 0 0 5px;
+  }
+
+  .img-cls {
+    width: auto;
+    height: 55px;
+  }
+}
