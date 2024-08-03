@@ -27,4 +27,15 @@ ul {
     width: auto;
     height: 55px;
   }
+  .cont-sections {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .cont-sections {
+    justify-content: left;
+    align-items: flex-start;
+  }
 }

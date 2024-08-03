@@ -1,7 +1,8 @@
 .mat-mdc-card {
   position: relative;
   margin: 0 25px;
-  height: 250px;
+  min-height: 300px;
+  height: auto;
   background: linear-gradient(45deg, #41729f 0%, #5885af 100%);
   color: #f9f1f0;
 }
