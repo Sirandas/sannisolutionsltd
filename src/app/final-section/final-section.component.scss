@@ -39,12 +39,12 @@
 
 .step.completed .circle {
   visibility: visible;
-  background-color: rgb(72 120 164);
-  border-color: rgb(74 121 165);
+  background-color: #006d67;
+  border-color: #006d67;
 }
 
 .step.completed .line {
-  border-left: 3px solid rgb(73 121 165);
+  border-left: 3px solid #006d67;
 }
 
 .step.active .circle {
@@ -76,7 +76,7 @@
   letter-spacing: 1px;
   font-weight: 500;
   line-height: 20px;
-  color: #002a53;
+  color: #006d67;
 }
 
 /* codepen override */
@@ -90,7 +90,7 @@ html * {
   font-weight: 500;
   padding-bottom: 20px;
   padding-top: 20px;
-  color: #002a53;
+  color: #006d67;
   letter-spacing: 1px;
 }
 .finalImg {

@@ -2,7 +2,7 @@
   [style.background-image]="getBackgroundImg()"
   style="background-repeat: no-repeat"
   [style.background-size]="getBackgroundSize()"
-  [style.border-radius]="currentRoute.includes('home') ? '10%' : '0%'"
+  [style.border-radius]="currentRoute.includes('home') ? '0%' : '0%'"
 >
   <app-header></app-header>
   <ng-container *ngIf="currentRoute !== '/home'">

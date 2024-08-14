@@ -7,7 +7,7 @@ import { Router, NavigationEnd } from '@angular/router';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  title = 'raise_solutions_ltd';
+  title = 'nreddy_solutions_ltd';
   currentRoute: string = '';
 
   constructor(private router: Router) {}
@@ -32,9 +32,9 @@ export class AppComponent implements OnInit {
     if (this.currentRoute.includes('home')) {
       return 'contain';
     } else if (this.currentRoute.includes('services')) {
-      return '100% 39%';
+      return '100% 36%';
     } else if (this.currentRoute.includes('contact')) {
-      return '100% 67%';
+      return '100% 68.5%';
     }
     return '100% 35%';
   }
