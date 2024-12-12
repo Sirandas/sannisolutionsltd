@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "kola_tech_ltd": {
+    "sanni_solutions_ltd": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/kola_tech_ltd",
+            "outputPath": "dist/sanni_solutions_ltd",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -63,10 +63,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "kola_tech_ltd:build:production"
+              "browserTarget": "sanni_solutions_ltd:build:production"
             },
             "development": {
-              "browserTarget": "kola_tech_ltd:build:development"
+              "browserTarget": "sanni_solutions_ltd:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -74,7 +74,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "kola_tech_ltd:build"
+            "browserTarget": "sanni_solutions_ltd:build"
           }
         },
         "test": {

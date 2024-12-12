@@ -7,7 +7,7 @@ import { Router, NavigationEnd } from '@angular/router';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  title = 'kola_tech_ltd';
+  title = 'sanni_solutions_ltd';
   currentRoute: string = '';
 
   constructor(private router: Router) {}
